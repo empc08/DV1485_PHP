@@ -1,0 +1,94 @@
+/**
+ * General elements
+ */
+body {
+    color:            #000000;
+    background-color: #093145; /* Darkest Indigo */
+    font-family:      arial, sans-serif;
+}
+
+/**
+ * Layout of the main page elements
+ */
+#wrapper {
+    margin:  0 auto;
+    width:   980px;
+    padding: 10px;
+}
+
+/**
+ * Layout for the header
+ */
+#header {
+    position:      relative;
+    margin-bottom: 15px;
+}
+
+/**
+ * Layout for the menu.
+ */
+.menu {
+    display:          block;
+    background-color: #0d3d56; /* Indigo */
+    font-family:      Verdana;
+    font-size:        20px;
+    padding:          0.5em 0.5em 0.5em 0.35em;
+}
+
+.menu a {
+    background-color: #093145; /* Darkest Indigo */
+    color:            #efd469; /* Lighter Daisy */
+    text-decoration:  none;
+    padding:          0.5em 1em 0.5em 1em;
+    position:         relative;
+}
+
+.menu a:hover, a.selected {
+    background-color: #efd469; /* Lighter Daisy */
+    color:            #093145; /* Darkest Indigo */
+}
+
+.menu a.img, a.img_selected {
+    background-image:    url('../img/home.png');
+    background-size:     1.30em 1.35em;
+    background-position: center;
+    background-repeat:   no-repeat;
+    padding:             0.5em 1.5em 0.5em 1.5em;
+    margin-right:        0.35em;
+    background-color:    #093145; /* Darkest Indigo */;
+}
+
+.menu a.img_selected, a.img:hover {
+    background-image: url('../img/home_mouseover.png');
+    background-color: #efd469; /* Lighter Daisy */
+}
+
+.menu a.selected:hover {
+    color: #093145; /* Darkest Indigo */
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+    min-height:       20em;
+    display:          block;
+    border-radius:    25px;
+    background-color: #f2f3f4; /* Lilia */
+    padding:          10px;
+}
+
+/**
+ * Layout for footer
+ */
+#footer {
+    margin-top:  20px;
+    border-top:  1px solid #ccc;
+    padding-top: 15px;
+    color:       #efd469; /* Lighter Daisy */
+}
+
+.sitefooter {
+    color: #666;
+}
