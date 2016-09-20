@@ -9,7 +9,7 @@ function modifyNavBar($items) {
     $ref = isset($_GET['p']) && isset($items[$_GET['p']]) ? $_GET['p'] : null;
     
     if ($ref) {
-        $items[$ref]['class'] .= ($items[$ref]['class'] == 'img') ? '_selected' : 'selected';
+        $items[$ref]['class'] .= (empty($items[$ref]['class'])) ? 'selected' : '_selected';
     }
     
     return $items;

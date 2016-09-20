@@ -2,7 +2,7 @@
 <html lang='<?=$lang?>'>
 <head>
 <meta charset='utf-8'/>
-<title><?=get_title($title) . "ABC"?></title>
+<title><?=get_title($title)?></title>
 <?php if(isset($favicon)): ?><link rel='shortcut icon' href='<?=$favicon?>'/><?php endif; ?>
 <link rel='stylesheet' type='text/css' href='<?=$stylesheet?>'/>
 </head>

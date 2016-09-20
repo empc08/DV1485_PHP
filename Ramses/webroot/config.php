@@ -43,4 +43,4 @@ $ramses['title_append'] = ' | Ramses en webbtemplate';
  * Theme-related settings.
  */
 $ramses['stylesheet'] = 'css/style.css';
-$ramses['favicon'] = 'favicon.ico';
+$ramses['favicon'] = 'img/favicon.ico';

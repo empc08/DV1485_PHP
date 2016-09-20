@@ -7,6 +7,7 @@ body {
     font-family:      arial, sans-serif;
 }
 
+
 /**
  * Layout of the main page elements
  */
@@ -16,6 +17,7 @@ body {
     padding: 10px;
 }
 
+
 /**
  * Layout for the header
  */
@@ -23,6 +25,17 @@ body {
     position:      relative;
     margin-bottom: 15px;
 }
+
+
+/**
+ * Layout for the portrait
+ */
+#main img.portrait {
+    float:  right;
+    height: 32%;
+    width:  32%;
+}
+
 
 /**
  * Layout for the menu.
@@ -78,6 +91,7 @@ body {
     background-color: #f2f3f4; /* Lilia */
     padding:          10px;
 }
+
 
 /**
  * Layout for footer
