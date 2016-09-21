@@ -48,9 +48,9 @@ kan jag använda mig av en ikon i menyn.</p>
 <h3>Gick det bra att inkludera source.php? Gjorde du det som en modul i ditt Anax?</h3>
 
 <p>Jag gjorde den som en modul direkt för att lära mig hur man gör. Jag såg då i källkodsfilen för bootstrapper hur myAutoLoader()
-förväntar sig att modulen är namngedd och placerad i filstrukturen. När jag väl skapade klassen märkte jag att filen gjorde en
-utskrift av HTML direkt efter klassdeklarationen. Jag ville få in denna HTML i en variabel för att anpassa den till mitt tema, och
-jag hittade ett smidigt sätt för detta genom att påverka "output buffering" tillfälligt.</p>
+förväntar sig att modulen är namngedd och placerad i filstrukturen. Eftersom klassfilen skriver ut HTML fanns det inget skäl för mig
+att skapa ett CSource-objekt själv, utan jag inkluderade endast filen som den är. Jag ville dock få in dess HTML i en variabel för att
+anpassa den till mitt tema, och jag hittade ett smidigt sätt för detta genom att påverka "output buffering" tillfälligt.</p>
 
 <h3>Gjorde du extrauppgiften med GitHub?</h3>
 

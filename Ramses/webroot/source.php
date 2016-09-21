@@ -14,7 +14,7 @@ $ramses['header'] = "\n<img class='sitelogo' src=img/banner.png alt='Ramses Logo
  * class to have it produce its output, capture the object output in
  * $ramses['main'] and then turn off output buffering. */
 ob_start();
-new CSource();
+require_once(RAMSES_INSTALL_PATH . '/src/CSource/CSource.php');
 $ramses['main'] = ob_get_contents();
 ob_end_clean();
 
